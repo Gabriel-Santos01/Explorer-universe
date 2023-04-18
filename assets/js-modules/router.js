@@ -24,6 +24,10 @@ export class Router {
 
       // Verifica o pathname e define o background do body de acordo
       switch (path) {
+        case 'home':
+          body.style.backgroundImage =
+            'url(./assets/images/mountains-universe-1.png)'
+          break
         case 'universo':
           body.style.backgroundImage =
             'url(./assets/images/mountains-universe-2.png)'
@@ -34,8 +38,7 @@ export class Router {
           break
         default:
           // Define um background padrão para outras páginas
-          body.style.backgroundImage =
-            'url(./assets/images/mountains-universe-1.png)'
+          body.style.backgroundImage = 'url("https://i.imgur.com/UmNcSPO.png")'
           break
       }
     }
