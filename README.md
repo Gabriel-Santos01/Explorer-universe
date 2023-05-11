@@ -7,7 +7,7 @@
 <br>
 
 <p align="center">
-  <a href="explorer-universe.vercel.app/" target = "__blank">
+  <a href="explorer-universe.vercel.app/">
   <img alt="imagem representativa da tela inicial do projeto" src=".github/preview.png" width="100%">
   </a>
 </p>
